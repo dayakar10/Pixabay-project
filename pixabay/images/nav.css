@@ -1,0 +1,68 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+#nav{
+    border: 2px solid ;
+    height: 65px;
+    
+    /* background-image:linear-gradient(rgba(0,0,0,0.6)),url(../images/background-image.webp); */
+}
+
+#sub-nav{
+  /* border: 2px solid yellow; */
+  height: inherit;
+  width:95%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+
+}
+#img{
+    height: 60px;
+    width:140px;
+    /* border: 2px solid red; */
+    text-align: center;
+    margin-top: 12px;
+    color: azure;
+}
+#img svg{
+    height:30px;
+}    
+#select {
+    display: flex;
+    padding: 10px;
+    /* border: 2px solid; */
+    justify-content: center;
+    align-items: center;
+    width:320px;
+}
+button{
+    padding: 10px;
+    margin: 10px;
+    width:80px;
+    background-color:rgb(167, 161, 161);
+    border-radius: 20px;
+}
+
+button:hover{
+    background-color: aqua;
+    cursor: pointer;
+}
+
+#select select{
+    width: 90px;
+    background-color:rgb(167, 161, 161);
+    height: 30px;
+    border: none;
+}
+
+#bu{
+    width:180px;
+}
+#bu:hover{
+    background-color: aquamarine;
+}
