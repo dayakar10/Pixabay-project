@@ -1,0 +1,2 @@
+# Pixabay-project
+static project
